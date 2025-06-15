@@ -5,6 +5,7 @@ import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
+import SecurityMonks from "../../assets/image.png"
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24 mt-20">
@@ -34,8 +35,8 @@ const Experience = () => {
           </span>
         </div>
         <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center max-w-2xl">
-            <FaGoogle color="#4285F4" size={50} />
+          <div className="flex gap-10 flex-wrap justify-center bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center max-w-2xl">
+            <img src={SecurityMonks } className="max-w-20 rounded-full" />
             <span className="text-white">
               <h2 className="leading-tight">
                 Web Developer Intern, Security Monks
